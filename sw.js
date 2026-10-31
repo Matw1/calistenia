@@ -1,6 +1,6 @@
 // Calistenia — service worker: guarda la app en el teléfono para que funcione sin internet.
 // Al publicar una versión nueva, build.js sube VERSION automáticamente para que el teléfono la descargue.
-const VERSION = 'calistenia-202610310516';
+const VERSION = 'calistenia-202610310537';
 const FILES = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png'];
 
 // cache:'reload' evita guardar una copia vieja que venga de la caché HTTP de GitHub Pages (max-age 600).
